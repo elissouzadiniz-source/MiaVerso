@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    backface-visibility: 0.5;
+    backface-visibility: visible;
 
 }
 
@@ -13,32 +13,32 @@ h1 {
     color: white;
     font-family: cursive;
     font-style: italic;
-    font-size: 12rem;
+    font-size: 12 rem;
     text-align: center;
-    animation: mover 3s infinite alternate ease-in-out;
+    animation: mover 3 s infinite alternate ease-in-out;
 }
 
 /* Animação: movimento suave para cima e para baixo */
 @keyframes mover {
-    0% {
-        transform: translateY(0);
+    0 % {
+        transform: translateY (0);
     }
 
-    50% {
-        transform: translateY(-20px);
+    50 % {
+        transform: translateY (-20 px);
     }
 
-    100% {
-        transform: translateY(0);
+    100 % {
+        transform: translateY (0);
     }
 }
 
 ul {
     list-style: none;
-    padding: 0px 50px;
+    padding: 0 px 50 px;
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 30 px;
 
 }
 
@@ -46,9 +46,9 @@ a {
     text-decoration: none;
     color: #dce6ff;
     font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 8px;
+    padding: 10 px 20 px;
+    border-radius: 8 px;
     background: #0f1b33;
-    box-shadow: 0 0 10px rgba(150, 180, 255, 0.4);
-    transition: background 0.3s, color 0.3s;
+    box-shadow: 0 0 10 px rgba (150, 180, 255, 0.4);
+    transition: background 0.3 s, color 0.3 s;
 }
