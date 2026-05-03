@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linha do Tempo: Fotos</title>
+</head>
+
+<h1>
+    <header>
+        <center>Um pouquinho de mim: Mia!!!</center>
+    </header>
+</h1>
+
+<style>
+    body {
+        margin: 0;
+        padding: 40px;
+        background: #0a1a33;
+        color: white;
+        border: 50px solid transparent;
+        border-image: url('https://i.imgur.com/8pQm2qH.jpeg') 60 round;
+        box-shadow: inset 0 0 40px rgba(120, 160, 255, 0.25);
+    }
+
+    .container {
+        position: relative;
+        width: 600px;
+        margin: 50px auto;
+    }
+
+
+    .container img.main {
+        width: 100%;
+        display: block;
+    }
+
+
+    .hotspot {
+        position: absolute;
+        cursor: pointer;
+    }
+
+
+    .popup {
+        position: absolute;
+        top: -10%;
+        left: 100%;
+        width: 65px;
+        height: 65px;
+        overflow: hidden;
+        background: none;
+        border: 0px solid blue;
+        padding: 5%;
+        display: block;
+        z-index: 10;
+    }
+
+
+    .popup img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.8s ease;
+    }
+
+
+    .popup:hover img {
+        transform: scale(1.4);
+    }
+</style>
+<nav>
+    <ul>
+        <li><a href="miaverso.html">Casa</a></li>
+        <li><a href="universo.html">Meu Universo</a></li>
+        <li><a href="fotos.html">Fotos e mais fotos</a></li>
+        <li><a href="colorir.html">Livro para colorir</a></li>
+    </ul>
+    <nav>
+
+        <style>
+            ul {
+                list-style: none;
+                padding: -100px 50px;
+                display: flex;
+                justify-content: space-between;
+                gap: 30px;
+
+            }
+
+            a {
+                text-decoration: none;
+                color: #dce6ff;
+                font-weight: bold;
+                padding: 10px 20px;
+                border-radius: 8px;
+                background: #0f1b33;
+                box-shadow: 0 0 10px rgba(150, 180, 255, 0.4);
+                transition: background 0.3s, color 0.3s;
+            }
+        </style>
+
+    </nav>
+
+
+
+    <div class="container">
+
+
+        <img src="Imagens/caminho.jpg" class="main">
+
+
+        <div class="hotspot" style="top: 23%; left: 50%; width: 10px; height: 10px;">
+            <div class="popup">
+                <img src="Imagens/image_1.jpg">
+            </div>
+        </div>
+
+
+        <div class="hotspot" style="top: 28%; left: 33%; width: 30px; height: 30px;">
+            <div class="popup">
+                <img src="Imagens/image_2.jpg">
+            </div>
+        </div>
+
+
+        <div class="hotspot" style="top: 33%; left: 60%; width: 30px; height: 30px;">
+            <div class="popup">
+                <img src="Imagens/image_3.jpg">
+            </div>
+        </div>
+
+
+        <div class="hotspot" style="top: 43%; left: 50%; width: 30px; height: 30px;">
+            <div class="popup">
+                <img src="Imagens/image_4.jpg">
+            </div>
+        </div>
+
+
+        <div class="hotspot" style="top: 40%; left: 35%; width: 30px; height: 30px;">
+            <div class="popup">
+                <img src="Imagens/image_5.jpg">
+            </div>
+        </div>
+
+
+        <div class="hotspot" style="top: 50%; left: 25%; width: 30px; height: 30px;">
+            <div class="popup">
+                <img src="Imagens/image_6.jpg">
+            </div>
+        </div>
+
+
+        <div class="hotspot" style="top: 55%; left: 45%; width: 30px; height: 30px;">
+            <div class="popup">
+                <img src="Imagens/image_7.jpg">
+            </div>
+        </div>
+
+
+        <div class="hotspot" style="top: 58%; left: 65%; width: 30px; height: 30px;">
+            <div class="popup">
+                <img src="Imagens/image_8.jpg">
+            </div>
+        </div>
+
+
+        <div class="hotspot" style="top: 68%; left: 48%; width: 30px; height: 30px;">
+            <div class="popup">
+                <img src="Imagens/image_9.jpg">
+            </div>
+        </div>
+
+
+        <div class="hotspot" style="top: 68%; left: 22%; width: 30px; height: 30px;">
+            <div class="popup">
+                <img src="Imagens/image_10.jpg">
+            </div>
+        </div>
+
+
+        <div class="hotspot" style="top: 81%; left: 25%; width: 30px; height: 30px;">
+            <div class="popup">
+                <img src="Imagens/image_11.jpg">
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    </body>
+
+</html>
