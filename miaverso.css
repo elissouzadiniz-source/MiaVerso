@@ -19,7 +19,7 @@ h1 {
 }
 
 /* Animação: movimento suave para cima e para baixo */
-@keyframes mover {
+keyframes mover {
     0 % {
         transform: translateY (0);
     }
